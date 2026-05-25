@@ -10,12 +10,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center; */
-    padding-top:125px;
+   
     background-color:white;
 }
 .all{
     width: 1000px;
-    margin:auto;
+    /* margin:auto; */
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -27,14 +27,15 @@ body{
     
 }
 .first{
-    width:45%;
+    width:49%;
+    padding-left: 60px;
    
 }
 .fb-icon {
     color: rgb(43, 83, 243);
     font-size: 62px;
     position:relative;
-    top:0;
+    top:20px;
     
 }
 
@@ -50,10 +51,11 @@ body{
    margin-top: -100px;
     margin-bottom:80px;
     height:auto;
-    
+   padding-top: 50px; 
+   padding-left: 90px;
 }
 .first p{
-   font-size: 30px;
+   font-size: 50px;
     font-weight: bold;
     position:absolute;
     margin-top: 180px;
@@ -79,11 +81,14 @@ span{
 } */
 .second{
     width: 50%;
-    border-left: 1px solid gray;
+   padding-top: 60px;
+   padding-left: 20px;
+    height: 590px;
+    border-left: 2px solid rgb(220, 220, 220);
    
 }
 h1{
-    font-size: 30px;;
+    font-size: 15px;;
 }
 .box{
     background-color: white;
@@ -94,7 +99,7 @@ h1{
 }
 .box input{
    
-    width: 120%;
+    width: 180%;
     height: 55px;
     padding:12px;
     margin-bottom: 15px;
@@ -108,7 +113,7 @@ h1{
     border-color:#166fe5
 }
 .login{
-    width: 120%;
+    width: 180%;
     padding: 12px;
     border: 1px solid #0e71f1;
     border-radius: 50px;
@@ -126,17 +131,27 @@ h1{
     text-decoration: none;
     text-align: center;
     display: block;
-    margin: 15px 0;
+    /* margin: 15px  ; */
+    font-size: 10px;
+    text-align: center;
+    padding: 12px;
+   
 
 }
+
+
 .pass:hover{
     text-decoration: underline;
+    background-color: #e7e7e7;
+    width: 180%;
+    padding: 12px;
+     border-radius: 50px;
 }
 .new-account{
     
  display: block;
     margin: auto;
-    width: 120%;
+    width: 180%;
     padding: 12px;
     background-color: white;
     color:#166fe5;
@@ -220,10 +235,18 @@ footer a:hover{
         width: 80%;
         align-items: center;
         gap: 40px;
+        margin-top: 100px;
     }
     
     .first{
         display: none;
+    }
+    .fb-icon{
+       color: rgb(43, 83, 243);
+    font-size: 62px;
+    position:relative;
+    top:20px;
+    justify-content: center;
     }
     .second{
         width: 100%;
@@ -242,13 +265,13 @@ footer a:hover{
     }
 
     .box input{
-        width: 100%;
+        width: 110%;
         height: 55px;
     }
 
     .login,
     .new-account{
-        width: 100%;
+        width: 110%;
     }
      .meta{
         margin-top: 40px;
@@ -265,7 +288,7 @@ footer a:hover{
     footer a{
         display: inline-block;
         margin: 5px;
-        font-size: 14px;
+        font-size: 10px;
     }
 
 
